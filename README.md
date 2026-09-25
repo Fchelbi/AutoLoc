@@ -29,4 +29,6 @@ Java 17 · Maven · Spring Boot · Spring Data JPA · MySQL · Lombok · Intelli
 
 ## Environnement
 
-Capture de l'environnement de développement fonctionnel : voir [`docs/`](docs/).
+Java 17 :
+
+![Java 17](docs/java-version.png)
