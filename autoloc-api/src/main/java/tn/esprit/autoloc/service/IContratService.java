@@ -8,6 +8,6 @@ public interface IContratService {
     Contrat ajouterContrat(Contrat contrat);
     Contrat modifierContrat(Contrat contrat);
     Contrat afficherContratById(Long id);
-    List<Contrat> AfficherAllContrat();
-    void supprimerClient(Long id);
+    List<Contrat> afficherAllContrat();
+    void supprimerContrat(Long id);
 }

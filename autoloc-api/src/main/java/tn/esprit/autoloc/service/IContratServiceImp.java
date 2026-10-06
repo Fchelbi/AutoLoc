@@ -28,12 +28,13 @@ public class IContratServiceImp implements IContratService{
     }
 
     @Override
-    public List<Contrat> AfficherAllContrat() {
+    public List<Contrat> afficherAllContrat() {
+
         return contratRepository.findAll();
     }
 
     @Override
-    public void supprimerClient(Long id) {
+    public void supprimerContrat(Long id) {
         contratRepository.deleteById(id);
 
     }
